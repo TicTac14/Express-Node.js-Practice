@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static('./navbar-app')); // serve static files
 
 app.get('/', (req, res) => {
-    res.status(200).sendFile(path.join(__dirname, './navbar-app/index.html'));
+    //res.status(200).sendFile(path.join(__dirname, './navbar-app/index.html'));
 })
 
 app.get('/about', (req, res) => {
