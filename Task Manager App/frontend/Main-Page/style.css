@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(33, 121, 176);
+    
+}
+
+#wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 700px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 15px 15px 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.302);
+}
+#title {
+    text-align: center;
+}
+#info {
+    text-align: center;
+}
+#input-container{
+    border-bottom: 1px rgba(170, 170, 170, 0.526) solid;
+    padding-bottom: 20px
+}
+
+#input-text{
+    width: 80%;
+    height: 30px;
+    border: none;
+    border: 1px rgba(182, 179, 179, 0.435) solid;
+    border-radius: 15px 0px 0px 15px;
+    padding: 15px;
+}
+
+#addTask {
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    height: 32px;
+    background: rgb(249, 158, 89);
+    cursor: pointer;
+    margin-left: -5px;
+
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 5px rgba(162, 162, 162, 0.309);
+    border-radius: 10px;
+}
+
+#deleteBtn {
+    color: red;
+    font-weight: 200px;
+    cursor: pointer;
+}
+
+#editBtn {
+    color: green;
+    font-weight: 200px;
+    cursor: pointer;
+}
